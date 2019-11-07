@@ -42,10 +42,6 @@ public class VoiceCaptchaGen {
 
         return new File(path + ".wav");
     }
-    public static void main(String[] args) {
-        VoiceCaptchaGen voiceCaptchaGen = new VoiceCaptchaGen("z");
 
-        voiceCaptchaGen.createWave("test");
-    }
 
 }
